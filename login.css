@@ -1,0 +1,113 @@
+/* Reset some default styles */
+body, h1, h3, form {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9f9f9;
+    color: #f9f9f9;
+}
+
+#logo{
+    text-align: start;
+    width:200px;
+    height: 200px;
+    border:solid black 10px;
+    margin-bottom: 20px;
+}
+
+#login-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom, #f9f9f9, #d9d9d9);
+}
+
+#login-h1 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #007BFF;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 14px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border-color: #007BFF;
+}
+
+button {
+    padding: 12px 24px;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    width: 100%;
+    margin-top: 20px;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+a {
+    text-decoration: none;
+    color: #007BFF;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+#register {
+    background-color: #28a745;
+    width: 100%;
+    transition: background-color 0.3s;
+    position: relative;
+    color:#f9f9f9;
+}
+
+#register:hover {
+    background-color: #218838;
+}
+
+#register a {
+    color: white; /* Set the color for the anchor tag in the Register button */
+}
+
+#register a, #register a:hover {
+    color: white; /* Set the color for the anchor tag in the Register button and on hover */
+}

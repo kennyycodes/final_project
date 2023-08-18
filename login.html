@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- @NOTE linking our CSS -->
+    <link rel="stylesheet" href="login.css" />
+
+    <!-- @NOTE linking firebase version 8 CDNs first -->
+    <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+
+    <!-- @NOTE initializing firebase -->
+    <script defer src="init-firebase.js"></script>
+
+    <!-- @NOTE link our login.js AFTER we load initialize firebase -->
+    <script defer src="login.js"></script>
+    <title>College Sidekick</title>
+</head>
+
+<body id="login-page">
+    <div>
+        <img id="logo" src="https://cdn.discordapp.com/attachments/1139232498463801416/1139583952147976313/salt.png">
+    </div>
+    <h1 id="login-h1"> Welcome to College Sidekick!</h1>
+    <div>
+        <form>
+            <input id="email" type="text" placeholder="Email">
+            <input id="password" type="text" placeholder="password">
+        </form>
+
+        <button id="login">
+            <a href="filters.html">Login</a>
+        </button>
+    </div>
+    <div>
+        <a href="register.html">
+            <button id="register">Register</button>
+        </a>
+    </div>
+</body>
+
+
+
+
+
+</html>
